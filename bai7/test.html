@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://api.gateway.com" method="POST">
+        <table>
+            <tr>
+                <td><label for="name">Họ và Tên:</label></td>
+                <td><input type="text" id="name" name="name" /></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" /></td>
+            </tr>
+            <tr>
+                <td><label for="day">Chọn Ngày:</label></td>
+                <td><input type="date" id="day" name="day" /></td>
+            </tr>
+            <tr>
+                <td>Chọn Giới Tính:</td>
+                <td>
+                    <input type="radio" name="gender" value="nam" id="nam"> <label for="nam">Nam</label>
+                    <input type="radio" name="gender" value="nu" id="nu"> <label for="nu">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="number">Số Điện Thoại:</label></td>
+                <td><input type="tel" id="number" name="number"></td>
+            </tr>
+            <tr>
+                <td><label for="nganh">Chuyên Ngành:</label></td>
+                <td><input type="text" id="nganh" name="nganh"></td>
+            </tr>
+            <tr>
+                <td><label for="nam">Năm Nhập Học:</label></td>
+                <td><input type="number" id="nam" name="nam"></td>
+            </tr>
+            <tr>
+                <td><label for="gpa">Điểm GPA:</label></td>
+                <td><input type="text" id="gpa" name="gpa"></td>
+            </tr>
+            <tr>
+                <td><label for="diaChi">Địa chỉ:</label></td>
+                <td><textarea id="diaChi" name="diaChi" rows="4" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="lop">Lớp Học:</label></td>
+                <td>
+                    <select id="lop" name="lop">
+                        <option value="lop1">Lớp 1</option>
+                        <option value="lop2">Lớp 2</option>
+                        <option value="lop3">Lớp 3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="ngaygio">Chọn Ngày Giờ:</label></td>
+                <td><input type="datetime-local" id="ngaygio" name="ngaygio"></td>
+            </tr>
+        </table>
+        <button type="submit">Gửi Thông Tin</button>
+    </form>
+</body>
+
+</html>
